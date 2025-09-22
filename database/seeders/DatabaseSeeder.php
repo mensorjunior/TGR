@@ -15,21 +15,21 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // Cria Usuário com role Admin
-        // User::factory()->create([
-        //     'name' => 'Admin', 
-        //     'email' => 'admin@example.com', 
-        //     'password' => Hash::make('password'), 
-        //     'role' => 'admin'
-        // ]);
+        Cria Usuário com role Admin
+        User::factory()->create([
+            'name' => 'Admin', 
+            'email' => 'admin@example.com', 
+            'password' => Hash::make('password'), 
+            'role' => 'admin'
+        ]);
 
-        // Cria Usuário com role Cliente
-        // User::factory()->create([
-        //     'name' => 'Cliente', 
-        //     'email' => 'cliente@example.com', 
-        //     'password' => Hash::make('password'), 
-        //     'role' => 'cliente'
-        // ]);
+        Cria Usuário com role Cliente
+        User::factory()->create([
+            'name' => 'Cliente', 
+            'email' => 'cliente@example.com', 
+            'password' => Hash::make('password'), 
+            'role' => 'cliente'
+        ]);
 
         // Cria 10 produtos
         Produto::factory(10)->create();
