@@ -41,13 +41,13 @@ Ajustar variáveis de ambiente:
 APP_NAME="Laravel Livewire Starter"
 APP_URL=http://localhost:8000
 DB_CONNECTION=sqlite
-# ou MySQL/PostgreSQL:
-# DB_CONNECTION=mysql
-# DB_HOST=127.0.0.1
-# DB_PORT=3306
-# DB_DATABASE=nome_do_banco
-# DB_USERNAME=root
-# DB_PASSWORD=
+ou MySQL/PostgreSQL:
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nome_do_banco
+DB_USERNAME=root
+DB_PASSWORD=
 
 
 Criar banco SQLite (caso use SQLite):
